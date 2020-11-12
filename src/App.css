@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+label {
+  display: block;
+}
 
 .App-logo {
   height: 40vmin;
