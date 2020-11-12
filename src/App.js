@@ -70,7 +70,7 @@ export default class App extends Component {
 
 
             <PrivateRoute 
-            token={this.state.toke} 
+            token={this.state.token} 
             exact 
             path='/todos' 
             render={(routerProps) => <Todos {...routerProps} token={this.state.token}/>} />

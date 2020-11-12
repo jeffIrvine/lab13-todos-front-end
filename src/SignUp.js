@@ -20,7 +20,7 @@ export default class SignUp extends Component {
         // localStorage.setItem('TOKEN', user.body.token);
         // localStorage.setItem('USERNAME', user.body.email);
         this.props.changeTokenAndUsername(user.body.email, user.body.token)
-        this.props.history.push('/api/todos')
+        this.props.history.push('/todos')
     }
     render() {
         return (
